@@ -43,7 +43,8 @@ const bestArtDirection = [
         year: 2021,
         Developer: "Arkane Studios",
         Director: "Dinga Bakaba",
-        Engine: "Void Engine"
+        Engine: "Void Engine",
+        winner: "Yes"
     },
 
     {
@@ -76,7 +77,8 @@ const bestGameDirection = [
         game: "Metroid Dread",
         Year: 2021,
         Developer: "Nintendo",
-        Writer: "Fumi Hayashi"
+        Writer: "Fumi Hayashi",
+        Winner: "Yes"
     },
 
     {
@@ -91,5 +93,102 @@ const bestGameDirection = [
         Year: 2021,
         Developer: "Capcom",
         Writer: "Antony Johnston"
+    }
+]
+
+const mostAnticipated = [
+    {
+        game: "God of War Ragnarok",
+        Year: 2022,
+        Developer: "Santa Monica Studios",
+        anticipationScore: 10,
+        Winner: "Yes"
+    },
+
+    {
+        game: "Horizon Forbidden West",
+        Year: 2022,
+        Developer: "Guerrilla Games",
+        anticipationScore: 9
+    },
+
+    {
+        game: "Dying Light 2 Stay Human",
+        Year: 2022,
+        Developer: "Techland",
+        anticipationScore: 8.5
+    },
+
+    {
+        game: "Suicide Squad: Kill The Justice League",
+        Year: 2021,
+        Developer: "Rocksteady Studios",
+        anticipationScore: 7
+    }
+]
+
+const bestMultiplayer = [
+    {
+        game: "Call of Duty Vanguard",
+        Year: 2021,
+        Developer: "Sledgehammer Games",
+        Genre: "Shooter",
+        Winner: "Yes"
+    },
+
+    {
+        game: "Forza Horizon 5",
+        Year: 2021,
+        Developer: "Playground Games",
+        Genre: "Racing"
+    },
+
+    {
+        game: "Battlefield 2042",
+        Year: 2021,
+        Developer: "DICE",
+        Genre: "Shooter"
+    },
+
+    {
+        game: "Knockout City",
+        Year: 2021,
+        Developer: "Velan Studios",
+        Genre: "Action"
+    }
+]
+
+const bestRPG = [
+    {
+        game: "Pokemond Brilliant Diamond/Shining Pearl",
+        Year: 2021,
+        Developer: "Game Freak",
+        Genre: "Role Playing",
+        Score: 83
+
+    },
+
+    {
+        game: "Disco Elysium: The Final Cut",
+        Year: 2021,
+        Developer: "ZA/UM",
+        Genre: "Role Playing",
+        Score: 90
+    },
+
+    {
+        game: "Tales of Arise",
+        Year: 2021,
+        Developer: "Bandai Namco",
+        Genre: "Action, Adventure, Role PLaying",
+        Score: 92
+    },
+
+    {
+        game: "OutRiders",
+        Year: 2021,
+        Developer: "People Can Fly",
+        Genre: "Shooter, Role Playing",
+        Score: 90
     }
 ]

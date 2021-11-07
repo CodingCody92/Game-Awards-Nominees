@@ -68,9 +68,20 @@ body {
   border-radius: 6px;
 }
 
-.footer {
+.social-links {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background: rgba(214, 26, 26, 0.438);
+    padding: 3%;
+}
+
+.social-links a {
+    margin: 1em;
+    color: white;
+    
+    border-radius: 10px;
+    box-shadow: 0 2px rgb(243, 248, 242);
 }
 
 .footer h4 {
@@ -99,5 +110,5 @@ body {
         height: 60px;
         margin: 10px;
     }
-  }
+}
 
