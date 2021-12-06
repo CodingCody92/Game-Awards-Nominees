@@ -1,8 +1,8 @@
 const gameOfTheYear = [
     {
-        game: "Lawn Mower Simulator",
+        game: "Halo Infinite",
         year: 2021,
-        Developer: "Curve Digital",
+        Developer: "343 Industries",
         score: 80
     },
 
@@ -28,6 +28,9 @@ const gameOfTheYear = [
         winner: "Yes"
     }
 ]
+
+const gameWinner = gameOfTheYear.filter(win => win.winner)
+console.log(gameWinner)
 
 const bestArtDirection = [
     {

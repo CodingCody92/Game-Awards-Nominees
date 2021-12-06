@@ -20,7 +20,10 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    animation: transitionIn 10s;
+    
 }
+
 
 
 .title {
@@ -66,13 +69,14 @@ body {
   max-height: 180px;
   max-height: 180px;
   border-radius: 6px;
+  animation: transitionIn 8s;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(214, 26, 26, 0.438);
+    background: rgba(34, 33, 33, 0.438);
     padding: 3%;
 }
 
@@ -86,6 +90,19 @@ body {
 
 .footer h4 {
     color: rgb(190, 190, 190);
+}
+
+@keyframes transitionIn {
+    from {
+       opacity: 0;
+       transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+        transition: ease-in;
+    }
 }
 
 @media (max-width: 600px) {
