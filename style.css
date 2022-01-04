@@ -72,24 +72,31 @@ body {
   animation: transitionIn 8s;
 }
 
+
+
+.foot {
+    padding: 2em;
+    background: rgba(149, 17, 201, 0.301);
+    margin-top: 5em;
+}
+
+.foot a {
+    border-radius: 130px;
+    /* background: rgba(80, 80, 80, 0.377); */
+    margin: 30px;
+    text-decoration: none;
+}
+
+
 .social-links {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(34, 33, 33, 0.438);
-    padding: 3%;
 }
 
-.social-links a {
-    margin: 1em;
-    color: white;
-    
-    border-radius: 10px;
-    box-shadow: 0 2px rgb(243, 248, 242);
-}
-
-.footer h4 {
-    color: rgb(190, 190, 190);
+.social-links .social {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 @keyframes transitionIn {

@@ -3,7 +3,7 @@ const gameOfTheYear = [
         game: "Halo Infinite",
         year: 2021,
         Developer: "343 Industries",
-        score: 80
+        score: 90
     },
 
     {
@@ -17,7 +17,7 @@ const gameOfTheYear = [
         game: "Marvel's Guardians of the Galaxy",
         year: 2021,
         publisher: "Eidos Montreal",
-        score: 85
+        score: 87
     },
 
     {
