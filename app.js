@@ -24,7 +24,7 @@ const gameOfTheYear = [
         game: "Reisdent Evil Village",
         year: 2021,
         Developer: "Capcom",
-        score: 93,
+        score: 94,
         winner: "Yes"
     }
 ]
@@ -88,7 +88,8 @@ const bestGameDirection = [
         game: "Halo Infinite",
         Year: 2021,
         Developer: "343 Industries",
-        Writer: "Paul Crocker"
+        Writer: "Paul Crocker",
+        winner: 'No'
     },
 
     {

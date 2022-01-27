@@ -75,16 +75,22 @@ body {
 
 
 .foot {
-    padding: 2em;
-    background: rgba(149, 17, 201, 0.301);
-    margin-top: 5em;
+    /* padding: 2em; */
+    background: rgba(31, 31, 31, 0.301);
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.foot a {
-    border-radius: 130px;
-    /* background: rgba(80, 80, 80, 0.377); */
+.foot i {
+    /* border-radius: 130px; */
+    /* background: rgba(194, 39, 39, 0.377); */
     margin: 30px;
     text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(121, 18, 180);
 }
 
 
@@ -97,6 +103,7 @@ body {
 .social-links .social {
     max-width: 50px;
     max-height: 50px;
+    color: rebeccapurple;
 }
 
 @keyframes transitionIn {
